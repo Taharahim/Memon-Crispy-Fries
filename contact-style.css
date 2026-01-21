@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+  font-size: 16px;
+  background-color: #0F172A;
+  color: #E5E7EB;
+  }
+
+header{
+    padding:20px 10px;
+  background-color: #1E293B;
+  color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;   
+  font-size: 24px;
+  font-weight: bold;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    list-style-type:none;
+    padding:20px 10px;
+}
+a{
+    text-decoration: none;
+  color: #E5E7EB;
+}
+a:hover
+{
+  color: #F97316;
+  text-decoration: none;
+}
+
+.heading{
+  color: #FACC15;
+  text-align:center;
+  padding:20px;
+}
+
+.report{
+color: #E5E7EB;
+padding:20px;
+text-align: center;
+}
+
+.form{
+  background-color: #1E293B;
+  color: #E5E7EB;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index:2;
+    padding:2em;
+}
+
+.form-heading{
+ text-align: center;
+ color: #FACC15;
+}
+
+label{
+  padding:10px;
+}
+
+
+
+footer{
+  padding-bottom:20px;
+  text-align: center;
+  background-color: #1E293B;
+  color: #E5E7EB;
+  border: none;
+}
+.footer-container{
+  background-color: #1E293B;
+  color: #fff;
+  padding:30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+}
+.footer-column{
+  display: grid;
+  grid-template-rows:repeat(4, 3em);
+}
+.social-icons i {
+  font-size: 50px;
+}
+.facebook { color: #60A5FA; }
+.instagram { color: #C084FC; }
+.whatsapp { color: #22C55E; }
+
+.btn:hover,
+.deal button:hover,
+.more:hover {
+  background-color: #FACC15;
+}
+.list li{
+  color: #9CA3AF;
+  list-style-type:none;
+  padding:4px;
+}
+.burger{
+  color: #FACC15;
+}
+.copy{
+  color:#9CA3AF;
+}
+button, .btn {
+  transition: background-color 0.3s;
+}
