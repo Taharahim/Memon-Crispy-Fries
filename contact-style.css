@@ -52,29 +52,111 @@ padding:20px;
 text-align: center;
 }
 
-.form{
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1E293B;
+  border-radius: 10px;
+  color: #E5E7EB;
+}
+
+.form-heading {
+  color: #FACC15;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-part {
+  margin-bottom: 15px;
+}
+input, textarea {
+  width: 90%;                  
+  padding: 10px;                
+  margin-bottom: 15px;          
+  border: 1px solid #F97316;    
+  border-radius: 8px;
+  background-color: #0F172A;   
+  color: #E5E7EB;               
+  font-size: 16px;
+  outline: none;                
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #FACC15;       
+  background-color: #1E293B;    
+}
+
+textarea {
+  resize: vertical;             
+  min-height: 100px;            
+}
+
+button {
+  font-size: 16px;
+  background-color: #F97316;
+  color: #0F172A;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #FACC15;
+  transform: scale(1.05);
+}
+
+.btn {
+  font-size: 15px;
+  background-color: #F97316;
+  color: #0F172A;
+  border: none;
+  border-radius: 20px;
+  margin:0 auto;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #FACC15;
+  transform: scale(1.05);
+}
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
   background-color: #1E293B;
   color: #E5E7EB;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index:2;
-    padding:2em;
+  border-radius: 10px;
 }
 
-.form-heading{
- text-align: center;
- color: #FACC15;
+section h2 {
+  color: #FACC15;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-label{
-  padding:10px;
+section h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #F97316;
 }
 
+section p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
 
+section:last-of-type {
+  background-color: #111827; 
+  text-align: center;
+}
 
 footer{
   padding-bottom:20px;
